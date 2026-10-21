@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Drinks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="drinks.css">
+</head>
+<body>
+
+<div class="theme-toggle-container">
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
+        <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+    </button>
+</div>
+
+<header class="drinks-header">
+    <p class="eyebrow">MY FAVORITE DRINKS</p>
+    <h1>Matcha <span>Frappe Shake</span></h1>
+    <p class="intro">
+        A creamy and refreshing homemade matcha drink
+        with a smooth texture and sweet finish.
+    </p>
+</header>
+
+<main class="drinks-container">
+    <section class="recipe-card">
+        <p class="section-label">01 — WHAT YOU NEED</p>
+        <h2>Ingredients</h2>
+        <ul class="ingredients-list">
+            <li>1–2 teaspoons matcha powder</li>
+            <li>1 cup milk</li>
+            <li>1–2 tablespoons sugar or sweetener</li>
+            <li>1 cup ice cubes</li>
+            <li>1 scoop vanilla ice cream (optional)</li>
+            <li>Whipped cream (optional)</li>
+        </ul>
+    </section>
+
+    <section class="recipe-card">
+        <p class="section-label">02 — LET'S MAKE IT</p>
+        <h2>Procedure</h2>
+        <ol class="procedure-list">
+            <li>Mix the matcha powder with a little warm water until smooth.</li>
+            <li>Put the matcha mixture, milk, sweetener, and ice into a blender.</li>
+            <li>Add vanilla ice cream if you prefer a creamier drink.</li>
+            <li>Blend until smooth and frothy.</li>
+            <li>Pour into a glass and add whipped cream if desired.</li>
+            <li>Serve immediately and enjoy!</li>
+        </ol>
+    </section>
+
+    <div class="recipe-footer">
+        <p>Made with love and a little matcha. ♡</p>
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 My Favorite Drinks</p>
+</footer>
+
+<script src="drinks.js"></script>
+<script src="theme.js"></script>
+</body>
+</html>
